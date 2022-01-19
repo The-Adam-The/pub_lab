@@ -1,6 +1,7 @@
 import unittest
 from tests.pub_test import TestPub
 from tests.customer_test import TestCustomer
+from tests.drink_test import TestDrink
 
 
 # __name__ is a variable set by python, usually name of file/module
