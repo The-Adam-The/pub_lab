@@ -7,3 +7,7 @@ class Pub:
 
     def increase_till(self, amount):
         self.till += amount
+
+    def purchase_drink(self, drink, customer):
+        self.increase_till(drink.price)
+        customer.lower_wallet_balance(drink.price)
